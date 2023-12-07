@@ -1,0 +1,67 @@
+<!-- <div class="artical-box mh-572"> -->
+            
+            <!-- <div class="text-frame">
+                <h4>
+                    <img class="desk-show mt-3" src="./images/Jobdesk.png" alt="" />
+                    <img class="mb-show mt-2" src="./images/JobMb.png" alt="" />
+                </h4> -->
+
+                <!-- <div class="articl-heading d-flex justify-content-between align-items-start"> -->
+                    <!-- <h3 class="fs-22-16">
+                        Software Developer
+                    </h3> -->
+                    <!-- <div class="dropdown three-dotes">
+                        <button class="btn btn-secondary bg-transparent border-0 dropdown-toggle text-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="./images/dots....png" alt="" />
+                    </button>
+                        <ul class="dropdown-menu three-dot-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Login</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Sign up</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">more</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> -->
+
+                <!-- <p class="fs-19-14">
+                    Inovators Analytics Private Ltd.
+                </p> -->
+                <!-- <div class="date-location d-flex align-items-center gap-5">
+                    <div class="date d-flex align-items-center justify-content-center gap-2">
+                        <img src="./images/calender.png" alt="" />
+                        <span class="fs-15-12">Fri, 12 Oct, 2018</span>
+                    </div>
+                    <div class="d-block justify-content-center align-items-center">
+                        <img src="./images/location.png" alt="" />
+                        <span class="fs-15-12">Noida, India</span>
+                    </div>
+                </div> -->
+                <!-- <button class="secondary-btn2 w-100 bg-transparent color-02B fw-bold">
+                  Apply on Times Jobs
+                </button> -->
+                <!-- <div class="profile-frame d-flex align-items-center justify-content-between">
+                    <div class="img-name d-flex align-items-center gap-4">
+                        <img class="profile-img" src="./images/Rectangle 3 (2).png" alt="img" />
+                        <span class="fs-18-12 fw-bold text-black">Joseph Gray
+                      <br />
+                      <div
+                        class="no-viesw mb-flex align-items-center justify-content-between gap-3"
+                      >
+                       
+                        <span class="fs-18-12 text-black">1.4k views</span>
+                    </div> -->
+                    <!-- </span>
+                </div>  -->
+                <!-- <div class="views-share d-flex align-items-center gap-5">
+                     <div class="no-viesw desk-flex align-items-center justify-content-between gap-3">
+                        <img src="./images/visibility_24px_outlined.png" alt="" />
+                        <span class="fs-18-12 text-black">1.4k views</span>
+                    </div> -->
+                    <!-- <img src="./images/share.png" alt="" />
+                </div>  -->
+            <!-- </div> -->

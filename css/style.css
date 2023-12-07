@@ -141,6 +141,8 @@
 
 /* ? ================= HEADER CSS END ======================== */
 
+  
+  
 
 /*  */
 
@@ -150,7 +152,7 @@
 .home-hero-section {
     height: 70vh;
     max-height: 440px;
-    background: url(../images/hero-bg-home.png) no-repeat center;
+    background: url(../images/heromain.jpeg) no-repeat center;
     background-size: cover;
     padding-bottom: 80px;
 }
