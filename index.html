@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        .background-image {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .background-image img {
+            width: 100%;
+            height: auto;
+            filter: brightness(50%) opacity(1);
+        }
+
+        .text-over {
+            position: absolute;
+            bottom: 10%;
+            left: 22%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+            font-weight: 600;
+        }
+
+        .text-over2 {
+            position: absolute;
+            bottom: 10%;
+            left: 17%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+        }
+
+        .navbar {
+            background: none;
+            border: none;
+        }
+
+        .navbar-brand {
+            padding: 0;
+        }
+
+        .navbar-brand img {
+            width: 90px; /* Adjust image width as needed */
+            height: 14px;
+            margin-right: 10px;
+        }
+
+        /* Custom styles for the input group */
+        .custom-input-group {
+            flex: 1;
+            margin: 0 auto;
+            max-width: 300px; /* Adjust the maximum width of the search bar */
+        }
+        .create-account-text {
+            font-weight: bold;
+            font-size: 14px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="whole (1).png" alt="Navbar Image">
+            </a>
+
+            <!-- Add the input group in the center of the navbar -->
+            <div class="input-group custom-input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <input type="checkbox" aria-label="Checkbox for following text input">
+                    </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox">
+            </div>
+            <!-- End of input group -->
+
+            <!-- Create Your Account link/button on the right -->
+            <div class="d-flex align-items-center">
+                <span class="create-account-text ms-auto">Create Your Account</span>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="background-image">
+        <img src="Rectangle 2.png" alt="Background Image">
+        <div class="text-over">Computer Engineering</div>
+        <div class="text-over2">142,765 Computer Engineer follow this</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
