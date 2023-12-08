@@ -39,3 +39,7 @@ const hideSignup = () => {
 const hideSignin = () => {
     signin.style.display == "flex" ? signin.style.display = "none" : signin.style.display = "flex"
 }
+
+const move = ()=>{
+    window.location.href = "index2.html";
+}
