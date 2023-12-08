@@ -1,0 +1,263 @@
+.header-section {
+    width: 100%;
+}
+.header-frame {
+    width: 100%;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+input.my-alert {
+    border-width: 0px;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    background-color: var(--tw-color-transparent);
+    /* Unknown class .fx-14 */
+    /* Unknown class .fw-500 */
+    /* Unknown class .black-5C5 */
+  }
+
+.img-name {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.fs-18-121 {
+    font-size: 18px;
+    line-height: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.home-hero-section {
+    
+    top: 0;
+}
+
+.container {
+    top:0;
+}
+
+.container1 {
+    height:100%;
+}
+.home-sub-hed {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 0;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.fs-18-12 {
+    font-size: 18px;
+    line-height: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.hero-content {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-bottom: 100px; /* Reduce margin-bottom for space adjustment */
+    margin-left:180px;
+}
+
+.fs-36-17 {
+    font-size: 36px;
+    line-height: 17px;
+    margin-bottom: 0; /* Remove margin-bottom to move the element up */
+    padding-bottom: 20px; /* Remove padding-bottom */
+    margin-right: auto; /* Align the element to the left */
+}
+
+.fs-18-123 {
+    font-size: 18px;
+    line-height: 12px;
+    margin-bottom: 0; /* Remove margin-bottom to move the element up */
+    padding: 0; /* Remove padding */
+    color: white;
+    margin-right: auto; /* Align the element to the left */
+}
+
+
+.sub-nav-frame {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links-list {
+    padding: 0;
+    list-style: none;
+}
+
+.button-frame {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+.dropdown .btn11 {
+    border: none;
+    border-radius: 0;
+    background-color: #EDE;
+    padding: 8px 12px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button.my-alert {
+    /* Unknown class .desk-flex */
+    /* Unknown class .btn */
+    /* Unknown class .btn-primary */
+    padding-left: var(--tw-size-3);
+    padding-right: var(--tw-size-3);
+    padding-top: var(--tw-size-2);
+    padding-bottom: var(--tw-size-2);
+    /* Unknown class .d-flex */
+    /* Unknown class .align-items-center */
+    /* Unknown class .justify-content-center */
+    gap: var(--tw-size-2);
+  }
+
+  .data-content-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .data-left {
+    padding: 2px;
+  }
+
+  .data-right{
+    padding: 10px;
+    align-self: flex-start;
+    padding-left: 16px;
+  }
+
+  .desk-show{
+   margin-top:0.75rem;
+  }
+  .mb-show{
+    margin-top:0.5rem;
+
+  }
+  .articl-heading{
+     display: flex;
+     justify-content: space-between;
+     align-items: start;
+  }
+
+  /* Button with dropdown */
+.btn-secondary1.dropdown-toggle {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    text-align: center;
+    border:0;
+  }
+  
+  /* Image within the button */
+  .btn-secondary1.dropdown-toggle img {
+    /* Define image styles here */
+    width: 24px; /* Adjust width as needed */
+    height: 24px; /* Adjust height as needed */
+  }
+  
+
+  .profile-frame{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4px;
+  }
+
+/* //maybe remove */
+  .no-viesw{
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+    align-items:center ;
+  }
+
+  views-share d-flex align-items-center gap-5
+  .views-share{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  w-100 mw-243 max-in-mb  float-end
+  .location-groups-frame {
+    width: 100%;
+    max-width: 243px;
+    margin-left: auto;
+  }
+  
+  w-100 border-bottom border-dark d-flex py-2 mb-2 align-items-center justify-content-between
+
+  .location-input-box {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    display: flex;
+    padding: 2px 0;
+    margin-bottom: 2px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  fx-14 text-dark border-0 shadow-none  fw-bold
+
+  .fx-141 {
+    color:black;
+    border:0;
+    text-shadow:none;
+    font-weight: bold; 
+  }
+
+
+  d-flex align-items-center justify-content-center mt-4  gap-3
+  
+  .varning-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+        
+       gap:8px;
+        }
+
+        d-flex mt-5 align-items-center justify-content-start
+        .recomend-grop{
+          display: flex;
+          align-items: center;
+          margin-top:1.25rem;
+          
+        }        
+
+        .first-name-group{
+          padding-top:1rem;
+        }
+
+        .first-group-row{
+          display:flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 0.75rem;
+        }
