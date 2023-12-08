@@ -9,6 +9,10 @@
     align-items: center;
     gap: 3px;
 }
+.serch-bar{
+  width:850px;
+  height:40px;
+}
 
 input.my-alert {
     border-width: 0px;
@@ -136,7 +140,6 @@ button.my-alert {
   .data-content-frame {
     display: flex;
     justify-content: center;
-    align-items: center;
   }
 
   .data-left {
@@ -206,30 +209,41 @@ button.my-alert {
   .location-groups-frame {
     width: 100%;
     max-width: 243px;
-    margin-left: auto;
   }
   
   w-100 border-bottom border-dark d-flex py-2 mb-2 align-items-center justify-content-between
 
   .location-input-box {
     width: 100%;
-    border-bottom: 1px solid #000;
     display: flex;
     padding: 2px 0;
-    margin-bottom: 2px;
+    margin: 10px 0;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .location-input-box input{
+    border: none;
+    outline: none;
+  }
+  
+  #clear-btn{
+    display: none;
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transition: 0.1s ease;
+  }
+
+  #clear-btn:hover{
+    background: rgb(247, 247, 247);
   }
   
   
   fx-14 text-dark border-0 shadow-none  fw-bold
-
-  .fx-141 {
-    color:black;
-    border:0;
-    text-shadow:none;
-    font-weight: bold; 
-  }
 
 
   d-flex align-items-center justify-content-center mt-4  gap-3
@@ -261,3 +275,16 @@ button.my-alert {
           justify-content: space-between;
           margin-top: 0.75rem;
         }
+
+.my-alert{
+  border: none;
+  font-weight: bold;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  width: 140px;
+  height: 40px;
+}
+.x{
+  margin:30px;
+}

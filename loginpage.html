@@ -20,9 +20,9 @@
             <div class="container custom-header-conatiner">
                 <div class="header-frame ">
                     <img src="./images/logo.svg" alt="" />
-                    <div class="serch-bar">
+                    <div class="serch-bar d-flex align-items-center gap-3">
                         <img src="./images/baseline-search-24px.png" alt="icon" />
-                        <input type="text" placeholder="Search for your favorite groups in ATG" class="my-alert">
+                        <input type="text" class="border-0 shadow-none bg-transparent fx-14 fw-500 black-5C5" placeholder="Search for your favorite groups in ATG" />
                     </div>
     
                     <div class="img-name ">
@@ -85,7 +85,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <button type="button" class="my-alert">
+                <button type="button" class="my-alert">
                   <img src="./images/leavegrp.png" alt="" />
                   Leave Group
                 </button>
@@ -308,26 +308,34 @@
 
 
            <!-- ------------------------------------------------ -->
-            <div class="data-right  ">
-                <div class="location-groups-frame ">
-                    <div class="location-input-box ">
+            <div class="data-right">
+                <div class="location-groups-frame">
+                    <div class="x">
+
+                   
+                    <div class="location-input-box">
                         <img src="./images/location.png" alt="">
-                        <input class="fx-141 " type="text" placeholder="Noida, India">
-                        <img src="./images/edit.png" id="edit" alt="edit">
+                        <input class="fx-141" type="text" placeholder="Enter your location" id="loc_input">
+                        <button id="clear-btn"><img src="./images/cross_icon.png" id="clear" alt="clear"></button>
                     </div>
+                </div>
+                <div class="x">
                     <div class="varning-box">
                         <img src="./images/!.png" alt="img">
                         <span class="fx-12 varing-para">Your location will help us serve better and extend a personalised experience.</span>
                     </div>
+                </div>
                     <!-- group show -->
-    
+                   <div class="x">
                     <div class="recomend-grop ">
                         <img src="./images/like.png" alt="">
                         <samp class="fx-18 text-uppercase ms-2 ">REcommended Groups</samp>
                     </div>
+                   </div>
+                   
 
 <!-- ----------------- -->
-
+                  <div class="x">
                     <div class="follow-name-group ">
                         <div class="first-group-row ">
                             <input type="checkbox" name="" id="follow">
@@ -354,7 +362,7 @@
                         
                         <h5 class="add-mor-grops">See More...</h5>
                     </div>
-
+                </div>
 
                 </div>
                 <!-- group end -->
@@ -370,6 +378,24 @@
 
         <script src="./java-script/index.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script>
+            const loc_input = document.querySelector('#loc_input')
+            const clearbtn = document.querySelector('#clear-btn')
+
+            loc_input.addEventListener('input', ()=>{
+                if(loc_input.value.length == 0){
+                    clearbtn.style.display = 'none'
+                }else{
+                    clearbtn.style.display = 'inline-block'
+                }
+                console.log(loc_input.value.length)
+            })
+
+            clearbtn.addEventListener('click', ()=>{
+                loc_input.value = ''
+                clearbtn.style.display = 'none'
+            })
+        </script>
     </body>
     
     </html>
