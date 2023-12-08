@@ -222,7 +222,7 @@
     max-height: 200px;
 }
 
-.articl-heading {}
+
 
 .articl-heading>h3 {
     width: 84%;
@@ -497,4 +497,9 @@
 }
 
 
+.position-sticky-class {
+    position: sticky;
+    top: 1px;
+    background-color: white;
+  }
 /* ?======================= SIGIN IN PAG CSS END ==================== */
